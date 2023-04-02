@@ -1,0 +1,126 @@
+.cart-wrapper{
+    width: 75%;
+    margin: 20px auto;
+
+.cart-title{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 2px 2px 3px #c0c0c0;
+    margin: 6px 0;
+    img{
+        width: 70px;
+        margin-right: 10px;
+    }
+    .cart-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1;
+    }
+   
+    
+    button{
+        display: inline-block;
+        background: #2a5ea5;
+        border: 0;
+        color: #fff;
+        padding: 7px;
+        border-radius: 6px;
+    }
+}
+.cart-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    
+
+    button{
+        display: inline-block;
+        background: #2a5ea5;
+        border: 0;
+        color: #fff;
+        padding: 7px;
+        border-radius: 6px;
+    }
+   
+}
+}
+
+.checkout-form{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: #ddd;
+    form{
+        width: 60%;
+        margin: auto;
+    }
+    >div{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    button{
+        display: inline-block;
+        background: #2a5ea5;
+        border: 0;
+        color: #fff;
+        padding: 7px;
+        border-radius: 6px;
+        height: 40px;
+        cursor: pointer;
+    }
+    input{
+        width: 100%;
+        padding: 5px;
+        height: 40px;
+        border: 1px solid #c0c0c0;
+    }
+}
+.order-info{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .alert-success{
+        background-color: green;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .close-icon{
+        position: absolute;
+        right: 3px;
+        top: 3px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    table{
+        border: 1px solid #c0c0c0;
+        tr{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #c0c0c0;
+
+            &:last-of-type{
+                border-bottom: 0;
+            }
+        }
+        td{
+            padding: 10px;
+        }
+    }
+    
+
+}

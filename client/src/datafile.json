@@ -1,0 +1,36 @@
+
+[
+    {
+"id":"id1",
+"title":"HP 14s-dq5031nf",
+"desc":"Conçu pour la productivité et les loisirs, ce PC portable HP 14 pouces vous assure plus de mobilité avec sa conception fine et légère. Profitez d’images vives sans scintillement[1] sur un écran à micro-bords, et exécutez vos tâches les plus intenses avec un processeur Intel® Core™[2] et un vaste stockage. Restez opérationnel toute la journée avec l’autonomie prolongée[3] et la technologie HP Fast Charge[4]. ",
+"imgeUrl":"/images/p1.jpg",
+"sizes":["S","M"],
+"price":5000
+},
+{
+    "id":"id2",
+    "title":"Imprimante Tout-en-un HP ENVY 6430e",
+"desc":"Cette imprimante a été conçue pour fonctionner uniquement avec des cartouches disposant de circuits électroniques HP neufs ou réutilisés. Elle est équipée d'un dispositif de sécurité dynamique pour bloquer les cartouches intégrant des circuits modifiés ou non-HP. Les mises à jour périodiques du micrologiciel permettent d'assurer l'efficacité de ces mesures et bloquent les cartouches qui fonctionnaient auparavant. Les circuits électroniques HP réutilisés permettent d'utiliser des cartouches réutilisées, reconditionnées ou recyclées",
+    "imgeUrl":"/images/p2.jpg",
+    "sizes":["S","M"],
+    "price":380
+    },
+    {
+        "id":"id3",
+        "title":"IPHONE 14 PRO 6/128GO",
+"desc":"Écran Super Retina XDR de 6,1 pouces2 avec ProMotion et écran toujours activé - Dynamic Island, une manière inédite et magique d’interagir avec votre iPhone - Appareil photo principal 48 Mpx pour une résolution jusqu’à 4x supérieure - Mode Cinématique, désormais en 4K Dolby Vision jusqu’à 30 i/s - Mode Action, pour des vidéos stables et fluides lorsque vous êtes en mouvement - Détection des accidents1, une technologie de sécurité vitale qui appelle les secours pour vous - Autonomie d’une journée entière et jusqu’à 23 heures de lecture vidéo3 - A16 Bionic, la puce de smartphone ultime. Connectivité 5G ultra rapide4 - Design conçu pour durer avec Ceramic Shield et résistance à l’eau5",
+        "imgeUrl":"/images/p3.jpg",
+        "sizes":["XL","L"],
+        "price":3850
+        },
+        {
+            "id":"id4",
+            "title":"Lave linge Frontale ",
+"desc":"Lave linge Frontale CONDOR -  Capacité de lavage: 6 Kg - Puissance nominale: 1950W - Vitesse d’essorage: 1000 tours/min - 15 Programmes - Afficheur: LED - Alimentation: 220-240 V/ 50 hz - Dimensions: 595 x 470 x 850 mm - Poids: 57 kg - Couleur: Silver - Garantie: 2 ans",
+            "imgeUrl":"/images/p4.jpg",
+            "sizes":["S","M"],
+            "price":1980
+            }
+
+]

@@ -1,0 +1,50 @@
+.productElm{
+    display: flex;
+    justify-content: space-between;
+
+    .product-item{
+        width: 20%;
+    
+    img{
+    width: 100%;
+    height: 150px;
+    padding: 2px;
+    border: 1px solid #c0c0c0;
+    }
+    .product-desc{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+    }
+    button{
+        display: block;
+        width: 100%;
+        background: #2a5ea5;
+        border: 0;
+        color: #c0c0c0;
+        padding: 7px;
+        border-radius: 6px;
+    }
+    }
+}
+.product-info{
+    img{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
+    p{
+        font-size: 20px;
+        margin: 10px 0;
+        color: #2a5ea5;
+        text-align: center;
+    }
+}
+.close-icon{
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    right: 10px;
+    top: 10px;
+}

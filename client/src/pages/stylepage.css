@@ -1,0 +1,24 @@
+.contentpage{
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-right: 5px;
+    height: 100%;
+  }
+
+.Navclass{
+ 
+  background-color: #24292e;
+height: 50px;
+color: white;
+margin: auto;
+
+}
+ .navtext{
+
+    text-align: right;
+    margin-right: 10px;
+  
+  }
+  .btnnav{
+    background-color: #2bc48c;
+  }

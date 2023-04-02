@@ -1,0 +1,23 @@
+.filterElm {
+  background-color: #fff;
+  border: 1px solid #c8c0c0;
+  display: flex;
+  flex-direction: column;
+}
+.filterElm .filter-title {
+  background-color: #2a5ea5;
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.filterElm > div {
+  padding: 5px 20px;
+  margin-bottom: 13px;
+}
+.filterElm select {
+  display: block;
+  height: 40px;
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 5px;
+}

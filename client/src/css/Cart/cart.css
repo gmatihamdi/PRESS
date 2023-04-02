@@ -1,0 +1,118 @@
+.cart-wrapper {
+  width: 75%;
+  margin: 20px auto;
+}
+.cart-wrapper .cart-title {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #333;
+}
+.cart-wrapper .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 2px 2px 3px #c0c0c0;
+  margin: 6px 0;
+}
+.cart-wrapper .cart-item img {
+  width: 70px;
+  margin-right: 10px;
+}
+.cart-wrapper .cart-item .cart-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.cart-wrapper .cart-item button {
+  display: inline-block;
+  background: #2a5ea5;
+  border: 0;
+  color: #fff;
+  padding: 7px;
+  border-radius: 6px;
+}
+.cart-wrapper .cart-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.cart-wrapper .cart-footer button {
+  display: inline-block;
+  background: #2a5ea5;
+  border: 0;
+  color: #fff;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.checkout-form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  background-color: #ddd;
+}
+.checkout-form form {
+  width: 60%;
+  margin: auto;
+}
+.checkout-form > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.checkout-form button {
+  display: inline-block;
+  background: #2a5ea5;
+  border: 0;
+  color: #fff;
+  padding: 7px;
+  border-radius: 6px;
+  height: 40px;
+  cursor: pointer;
+}
+.checkout-form input {
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+  border: 1px solid #c0c0c0;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.order-info .alert-success {
+  background-color: green;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.order-info .close-icon {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.order-info table {
+  border: 1px solid #c0c0c0;
+}
+.order-info table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c0c0c0;
+}
+.order-info table tr:last-of-type {
+  border-bottom: 0;
+}
+.order-info table td {
+  padding: 10px;
+}

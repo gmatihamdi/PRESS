@@ -1,0 +1,30 @@
+
+.affichModel{
+    width: 500px;
+    padding: 8% 0 0;
+    margin: auto;
+    text-align: center;
+    background-color:blanchedalmond;
+    border-radius: 1rem;
+}
+
+
+
+.affichModel p {
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .affichModel .close-icon {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .btnmodal{
+    margin-bottom: 20px;
+  }
